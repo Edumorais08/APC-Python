@@ -1,0 +1,20 @@
+def print_rectangle(a,b,c):
+  print(a)
+  print(a * 'x')
+  print('x'+' '*(a-2)+'x')
+  print('x'+' '*(a-2)+'x')
+  print(a * 'x')
+  print(b)
+  print(b * 'x')
+  print('x'+' '*(b-2)+'x')
+  print('x'+' '*(b-2)+'x')
+  print(b * 'x')
+  print(c)
+  print(c * 'x')
+  print('x'+' '*(c-2)+'x')
+  print('x'+' '*(c-2)+'x')
+  print(c * 'x')
+
+
+a,b,c = map(int,input().split())
+print_rectangle(a,b,c)
